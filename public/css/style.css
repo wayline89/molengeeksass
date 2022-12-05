@@ -1,0 +1,85 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  border-bottom: 1px black solid;
+  height: 70px;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a .active {
+  background-color: white;
+  color: white;
+}
+.topnav .navdroite {
+  float: right !important;
+  position: absolute;
+  right: 0;
+}
+.topnav .imagetop {
+  float: left;
+  position: absolute;
+  left: 0;
+}
+.topnav .navmid {
+  text-align: center;
+}
+
+.navmid {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
+.ligne {
+  border-radius: 25px;
+  width: 5%;
+  color: gray;
+}
+
+.premiertxt {
+  text-align: justify;
+  margin: 5%;
+}
+
+.footer {
+  color: white;
+  background-color: #363636;
+}
+
+.molengeek {
+  font-size: 55;
+  color: #375D81;
+}
+
+body {
+  font: 100%;
+}
+
+.troismid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bouton {
+  display: flex;
+  background-color: #375D81;
+}
+
+.textebouton {
+  padding-left: 500px;
+}
+
+.barre {
+  padding-top: 22px;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
